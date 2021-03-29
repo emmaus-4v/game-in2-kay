@@ -88,7 +88,7 @@ var tekenSpeler = function(x, y) {
  * Updatet globale variabelen met positie van vijand of tegenspeler
  */
 var beweegVijand = function() {
-    
+      
 };
 
 
@@ -105,7 +105,9 @@ var beweegKogel = function() {
  * Updatet globale variabele spelerX en spelerY
  */
 var beweegSpeler = function() {
-
+    spelerX = mouseX;
+    spelerY = 600;
+   
 };
 
 
